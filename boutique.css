@@ -1,0 +1,131 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #222;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background-color: #003366;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header h1 {
+    font-size: 1.8rem;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  header nav ul li a:hover {
+    color: #00aaff;
+  }
+  
+  
+  /* Sections */
+  .section {
+    padding: 2rem 0;
+  }
+  
+  .section h2 {
+    color: #003366;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .section p {
+    text-align: center;
+  }
+  
+  /* Boutique */
+  .products {
+    display: flex;
+    justify-content: space-around; /* Espacement égal entre les produits */
+    flex-wrap: wrap; /* Permet le retour à la ligne si l'espace est insuffisant */
+    gap: 20px; /* Espace entre les cartes */
+  }
+  
+  .product {
+    width: 220px; /* Taille du conteneur */
+    padding: 10px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product img {
+    width: 200px; /* Largeur fixe pour toutes les images */
+    height: auto; /* Conserve les proportions */
+    border-radius: 8px;
+  }
+  
+  /* Contact */
+  .contact-links {
+    list-style: none;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .contact-links li {
+    margin: 5px 0;
+  }
+  
+  .contact-links a {
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .contact-links a:hover {
+    color: #00aaff;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  
